@@ -18,10 +18,6 @@ const typeDefs = `
     people: [Human]
     search(contains: String): Boolean!
   }
-
-  type Mutation {
-    addPerson(name: String, age: Int): Human
-  }
 `;
 
 const people = [
